@@ -2,4 +2,7 @@ checkoutLocation: "go/src/github.com/flashmob/go-guerrilla"
 workspaceLocation: "."
 tasks:
   - command: |
+      mkdir /workspace/go/bin
+      curl https://raw.githubusercontent.com/golang/dep/master/install.sh | sh
       cd /workspace/go/src/github.com/flashmob/go-guerrilla
+      dep ensure

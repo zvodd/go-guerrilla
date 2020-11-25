@@ -1,0 +1,5 @@
+checkoutLocation: "go/src/github.com/flashmob/go-guerrilla"
+workspaceLocation: "."
+tasks:
+  - command: |
+      cd /workspace/go/src/github.com/flashmob/go-guerrilla
